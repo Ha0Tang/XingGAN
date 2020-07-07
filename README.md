@@ -20,6 +20,8 @@
 
 ## Citation
 If you use this code for your research, please cite our papers.
+
+GestureGAN
 ```
 @inproceedings{tang2018gesturegan,
   title={GestureGAN for Hand Gesture-to-Gesture Translation in the Wild},
@@ -27,14 +29,20 @@ If you use this code for your research, please cite our papers.
   booktitle={ACM MM},
   year={2018}
 }
+```
 
+C2GAN
+```
 @inproceedings{tang2019cycleincycle,
   title={Cycle In Cycle Generative Adversarial Networks for Keypoint-Guided Image Generation},
   author={Tang, Hao and Xu, Dan and Liu, Gaowen and Wang, Wei and Sebe, Nicu and Yan, Yan},
   booktitle={ACM MM},
   year={2019}
 }
+```
 
+SelectionGAN
+```
 @inproceedings{tang2019multi,
   title={Multi-channel attention selection gan with cascaded semantic guidance for cross-view image translation},
   author={Tang, Hao and Xu, Dan and Sebe, Nicu and Wang, Yanzhi and Corso, Jason J and Yan, Yan},
