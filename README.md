@@ -1,7 +1,7 @@
 ## XingGAN (or CrossingGAN)
 
 **XingGAN for Person Image Generation (Coming Soon!)**  
-[Hao Tang](http://disi.unitn.it/~hao.tang/), [Song Bai](http://songbai.site/), [Li Zhang](http://www.robots.ox.ac.uk/~lz/), [Philip H. S. Torr](https://scholar.google.com/citations?user=kPxa2w0AAAAJ&hl=en), [Nicu Sebe](https://scholar.google.com/citations?user=stFCYOAAAAAJ&hl=en).
+[Hao Tang](http://disi.unitn.it/~hao.tang/), [Song Bai](http://songbai.site/), [Li Zhang](http://www.robots.ox.ac.uk/~lz/), [Philip H.S. Torr](https://scholar.google.com/citations?user=kPxa2w0AAAAJ&hl=en), [Nicu Sebe](https://scholar.google.com/citations?user=stFCYOAAAAAJ&hl=en).
 <br>In [ECCV 2020](https://eccv2020.eu/).
 
 ## Framework
