@@ -21,6 +21,16 @@
 ## Citation
 If you use this code for your research, please cite our papers.
 
+XingGAN
+```
+@inproceedings{tang2020xinggan,
+  title={XingGAN for Person Image Generation},
+  author={Tang, Hao and Bai, Song and Zhang, Li and Torr, Philip HS and Sebe, Nicu},
+  booktitle={ECCV},
+  year={2020}
+}
+```
+
 GestureGAN
 ```
 @inproceedings{tang2018gesturegan,
