@@ -109,7 +109,7 @@ def define_G(input_nc, output_nc, ngf, which_model_netG, norm='batch', use_dropo
     if use_gpu:
         assert (torch.cuda.is_available())
 
-    if which_model_netG == 'PATN':
+    if which_model_netG == 'Xing':
         assert len(input_nc) == 2
         netG = PATNetwork(input_nc, output_nc, ngf, norm_layer=norm_layer, use_dropout=use_dropout,
                                            n_blocks=9, gpu_ids=gpu_ids, n_downsampling=n_downsampling)
