@@ -65,18 +65,8 @@ class PATBlock(nn.Module):
 
     def forward(self, x1, x2):
         x1_out = self.conv_block_stream1(x1)
-        # print('x1_out', x1_out.size()) [32, 256, 32, 16]
         x2_out = self.conv_block_stream2(x2)
         # print('x2_out', x2_out.size()) [32, 256, 32, 16]
-        # # att = F.sigmoid(x2_out)
-        # att = torch.sigmoid(x2_out)
-        #
-        # x1_out = x1_out * att
-        # out = x1 + x1_out # residual connection
-        #
-        # # stream2 receive feedback from stream1
-        # x2_out = torch.cat((x2_out, out), 1)
-        # return out, x2_out, x1_out
 
         # Update Image Branch
         m_batchsize, C, height, width = x1_out.size()
@@ -116,7 +106,6 @@ class PATBlock(nn.Module):
         # Update Image Branch
 
         # Update Skeleton Branch
-
         x2_out_update = torch.cat((x1_out_update, x2_out_update), 1)
 
         # print('after x2_out', x2_out.size())[32, 512, 32, 16]
@@ -303,7 +292,6 @@ class PATNModel(nn.Module):
         x2 = self.x2_con(x2)
         x2 = self.x2_norm(x2)
         x2 = self.x2_relu(x2)
-        # print('x2', x2.size())
         x2 = self.stream2_up(x2)
 
         image11 = x2[:, 0:3, :, :]
