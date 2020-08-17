@@ -16,17 +16,25 @@ The repository offers the official implementation of our paper in PyTorch.
 
 Also see our BMVC 2020 oral paper [Bipartite Graph Reasoning GANs for Person Image Generation](https://github.com/Ha0Tang/BiGraphGAN).
 
-
-## Framework
+### Framework
 <img src='./imgs/framework.jpg' width=1200>
 
-## Results
+### Comparison Results
 
 <img src='./imgs/market_results.jpg' width=1200>
 
 <br>
 
 <img src='./imgs/fashion_results.jpg' width=1200>
+
+### [License](./LICENSE.md)
+
+Copyright (C) 2019 University of Trento, Italy.
+
+All rights reserved.
+Licensed under the [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode) (**Attribution-NonCommercial-ShareAlike 4.0 International**)
+
+The code is released for academic research use only. For commercial use, please contact [hao.tang@unitn.it](hao.tang@unitn.it).
 
 ## Related Projects
 **[GestureGAN](https://github.com/Ha0Tang/GestureGAN) | [C2GAN](https://github.com/Ha0Tang/C2GAN) | [SelectionGAN](https://github.com/Ha0Tang/SelectionGAN) | [Guided-I2I-Translation-Papers](https://github.com/Ha0Tang/Guided-I2I-Translation-Papers)**
