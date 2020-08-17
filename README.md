@@ -9,8 +9,13 @@
 ## XingGAN (or CrossingGAN)
 
 [**XingGAN for Person Image Generation**](https://arxiv.org/abs/2007.09278)  
-[Hao Tang](http://disi.unitn.it/~hao.tang/), [Song Bai](http://songbai.site/), [Li Zhang](http://www.robots.ox.ac.uk/~lz/), [Philip H.S. Torr](https://scholar.google.com/citations?user=kPxa2w0AAAAJ&hl=en), [Nicu Sebe](https://scholar.google.com/citations?user=stFCYOAAAAAJ&hl=en).
-<br>In [ECCV 2020](https://eccv2020.eu/).
+[Hao Tang](http://disi.unitn.it/~hao.tang/)<sup>12</sup>, [Song Bai](http://songbai.site/)<sup>2</sup>, [Li Zhang](http://www.robots.ox.ac.uk/~lz/)<sup>2</sup>, [Philip H.S. Torr](https://scholar.google.com/citations?user=kPxa2w0AAAAJ&hl=en)<sup>2</sup>, [Nicu Sebe](https://scholar.google.com/citations?user=stFCYOAAAAAJ&hl=en)<sup>13</sup>. <br> 
+<sup>1</sup>University of Trento, Italy, <sup>2</sup>University of Oxford, UK, <sup>3</sup>Huawei Research Ireland, Ireland.<br>
+In [ECCV 2020](https://eccv2020.eu/). <br>
+The repository offers the official implementation of our paper in PyTorch.
+
+Also see our BMVC 2020 oral paper [Bipartite Graph Reasoning GANs for Person Image Generation](https://github.com/Ha0Tang/BiGraphGAN).
+
 
 ## Framework
 <img src='./imgs/framework.jpg' width=1200>
