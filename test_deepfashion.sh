@@ -1,0 +1,2 @@
+export CUDA_VISIBLE_DEVICES=0;
+python test.py --dataroot ./fashion_data/ --name fashion_XingGAN --model XingGAN --phase test --dataset_mode keypoint --norm instance --batchSize 1 --resize_or_crop no --gpu_ids 0 --BP_input_nc 18 --no_flip --which_model_netG PATN --checkpoints_dir ./checkpoints --pairLst ./fashion_data/fasion-resize-pairs-test.csv --which_epoch latest --results_dir ./results --display_id 0

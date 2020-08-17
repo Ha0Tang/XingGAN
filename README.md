@@ -16,30 +16,10 @@
 <img src='./imgs/fashion_results.jpg' width=1200>
 
 ## Related Projects
-**[BiGraphGAN](https://github.com/Ha0Tang/BiGraphGAN) | [GestureGAN](https://github.com/Ha0Tang/GestureGAN) | [C2GAN](https://github.com/Ha0Tang/C2GAN) | [SelectionGAN](https://github.com/Ha0Tang/SelectionGAN) | [Guided-I2I-Translation-Papers](https://github.com/Ha0Tang/Guided-I2I-Translation-Papers)**
+**[GestureGAN](https://github.com/Ha0Tang/GestureGAN) | [C2GAN](https://github.com/Ha0Tang/C2GAN) | [SelectionGAN](https://github.com/Ha0Tang/SelectionGAN) | [Guided-I2I-Translation-Papers](https://github.com/Ha0Tang/Guided-I2I-Translation-Papers)**
 
 ## Citation
 If you use this code for your research, please cite our papers.
-
-XingGAN
-```
-@inproceedings{tang2020xinggan,
-  title={XingGAN for Person Image Generation},
-  author={Tang, Hao and Bai, Song and Zhang, Li and Torr, Philip HS and Sebe, Nicu},
-  booktitle={ECCV},
-  year={2020}
-}
-```
-
-BiGraphGAN
-```
-@inproceedings{tang2020bipartite,
-  title={Bipartite Graph Reasoning GANs for Person Image Generation},
-  author={Tang, Hao and Bai, Song and Torr, Philip HS and Sebe, Nicu},
-  booktitle={BMVC},
-  year={2020}
-}
-```
 
 GestureGAN
 ```
