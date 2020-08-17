@@ -111,7 +111,7 @@ def define_G(input_nc, output_nc, ngf, which_model_netG, norm='batch', use_dropo
 
     if which_model_netG == 'Xing':
         assert len(input_nc) == 2
-        netG = PATNetwork(input_nc, output_nc, ngf, norm_layer=norm_layer, use_dropout=use_dropout,
+        netG = XingNetwork(input_nc, output_nc, ngf, norm_layer=norm_layer, use_dropout=use_dropout,
                                            n_blocks=9, gpu_ids=gpu_ids, n_downsampling=n_downsampling)
     else:
         raise NotImplementedError('Generator model name [%s] is not recognized' % which_model_netG)
