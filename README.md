@@ -1,3 +1,11 @@
+[![License CC BY-NC-SA 4.0](https://img.shields.io/badge/license-CC4.0-blue.svg)](https://github.com/Ha0Tang/XingGAN/blob/master/LICENSE.md)
+![Python 3.6](https://img.shields.io/badge/python-3.6.9-green.svg)
+![Packagist](https://img.shields.io/badge/Pytorch-1.0.0-red.svg)
+![Last Commit](https://img.shields.io/github/last-commit/Ha0Tang/XingGAN)
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-blue.svg)]((https://github.com/Ha0Tang/XingGAN/graphs/commit-activity))
+![Contributing](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)
+![Ask Me Anything !](https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg)
+
 ## XingGAN (or CrossingGAN)
 
 [**XingGAN for Person Image Generation**](https://arxiv.org/abs/2007.09278)  
