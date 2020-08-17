@@ -5,9 +5,9 @@ import functools
 import torch.nn.functional as F
 
 
-class PATBlock(nn.Module):
+class XingBlock(nn.Module):
     def __init__(self, dim, padding_type, norm_layer, use_dropout, use_bias, cated_stream2=False):
-        super(PATBlock, self).__init__()
+        super(XingBlock, self).__init__()
         self.conv_block_stream1 = self.build_conv_block(dim, padding_type, norm_layer, use_dropout, use_bias, cal_att=False)
         self.conv_block_stream2 = self.build_conv_block(dim, padding_type, norm_layer, use_dropout, use_bias, cal_att=True, cated_stream2=cated_stream2)
 
@@ -111,10 +111,10 @@ class PATBlock(nn.Module):
         # print('after x2_out', x2_out.size())[32, 512, 32, 16]
         return x1_out_update, x2_out_update
 
-class PATNModel(nn.Module):
+class XingModel(nn.Module):
     def __init__(self, input_nc, output_nc, ngf=64, norm_layer=nn.BatchNorm2d, use_dropout=False, n_blocks=6, gpu_ids=[], padding_type='reflect', n_downsampling=2):
         assert(n_blocks >= 0 and type(input_nc) == list)
-        super(PATNModel, self).__init__()
+        super(XingModel, self).__init__()
         self.input_nc_s1 = input_nc[0]
         self.input_nc_s2 = input_nc[1]
         self.output_nc = output_nc
@@ -156,7 +156,7 @@ class PATNModel(nn.Module):
         cated_stream2[0] = False
         attBlock = nn.ModuleList()
         for i in range(n_blocks):
-            attBlock.append(PATBlock(ngf * mult, padding_type=padding_type, norm_layer=norm_layer, use_dropout=use_dropout, use_bias=use_bias, cated_stream2=cated_stream2[i]))
+            attBlock.append(XingBlock(ngf * mult, padding_type=padding_type, norm_layer=norm_layer, use_dropout=use_dropout, use_bias=use_bias, cated_stream2=cated_stream2[i]))
 
         # up_sample
         model_stream1_up = []
@@ -331,12 +331,12 @@ class PATNModel(nn.Module):
                output11 + output12 + output13 + output14 + output15 + output16 + output17 + output18 + output19 + output20 + output21
 
 
-class PATNetwork(nn.Module):
+class XingNetwork(nn.Module):
     def __init__(self, input_nc, output_nc, ngf=64, norm_layer=nn.BatchNorm2d, use_dropout=False, n_blocks=6, gpu_ids=[], padding_type='reflect', n_downsampling=2):
-        super(PATNetwork, self).__init__()
+        super(XingNetwork, self).__init__()
         assert type(input_nc) == list and len(input_nc) == 2, 'The AttModule take input_nc in format of list only!!'
         self.gpu_ids = gpu_ids
-        self.model = PATNModel(input_nc, output_nc, ngf, norm_layer, use_dropout, n_blocks, gpu_ids, padding_type, n_downsampling=n_downsampling)
+        self.model = XingModel(input_nc, output_nc, ngf, norm_layer, use_dropout, n_blocks, gpu_ids, padding_type, n_downsampling=n_downsampling)
 
     def forward(self, input):
         if self.gpu_ids and isinstance(input[0].data, torch.cuda.FloatTensor):

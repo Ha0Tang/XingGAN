@@ -7,7 +7,7 @@ import numpy as np
 import torch.nn.functional as F
 
 import sys
-from models.model_variants import PATNetwork
+from models.model_variants import XingNetwork
 
 def weights_init_normal(m):
     classname = m.__class__.__name__
