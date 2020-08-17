@@ -36,11 +36,96 @@ Licensed under the [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-
 
 The code is released for academic research use only. For commercial use, please contact [hao.tang@unitn.it](hao.tang@unitn.it).
 
+## Installation
+
+Clone this repo.
+```bash
+git clone https://github.com/Ha0Tang/XingGAN
+cd XingGAN/
+```
+
+This code requires PyTorch 1.0.0 and python 3.6.9+. Please install the following dependencies:
+* pytorch 1.0.0
+* torchvision
+* numpy
+* scipy
+* scikit-image
+* pillow
+* pandas
+* tqdm
+* dominate
+
+To reproduce the results reported in the paper, you need to run experiments on NVIDIA DGX1 with 4 32GB V100 GPUs for DeepFashion, and 1 32GB V100 GPU for Market-1501.
+
+## Dataset Preparation
+
+Please follow [SelectionGAN](https://github.com/Ha0Tang/SelectionGAN/tree/master/person_transfer#data-preperation) to directly download both Market-1501 and DeepFashion datasets.
+
+## Generating Images Using Pretrained Model
+### Market-1501
+```bash
+cd scripts/
+sh download_xinggan_model.sh market
+cd ..
+```
+Then,
+1. Change several parameters in `test_market.sh`.
+2. Run `sh test_market.sh` for testing.
+
+### DeepFashion
+```bash
+cd scripts/
+sh download_xinggan_model.sh deepfashion
+cd ..
+```
+Then,
+1. Change several parameters in `test_deepfashion.sh`.
+2. Run `sh test_deepfashion.sh` for testing.
+
+## Train/Test New Models
+### Market-1501
+1. Change several parameters in `train_market.sh`.
+2. Run `sh train_market.sh` for training.
+3. Change several parameters in `test_market.sh`.
+4. Run `sh test_market.sh` for testing.
+
+### DeepFashion
+1. Change several parameters in `train_deepfashion.sh`.
+2. Run `sh train_deepfashion.sh` for training.
+3. Change several parameters in `test_deepfashion.sh`.
+4. Run `sh test_deepfashion.sh` for testing.
+
+## Evaluation
+We adopt SSIM, mask-SSIM, IS, mask-IS, and PCKh for evaluation of Market-1501. SSIM, IS, PCKh for DeepFashion. Please refer to [Pose-Transfer](https://github.com/tengteng95/Pose-Transfer#evaluation) for more details.
+ 
+## Acknowledgments
+This source code is inspired by both [Pose-Transfer](https://github.com/tengteng95/Pose-Transfer), [DANet](https://github.com/junfu1115/DANet) and [SelectionGAN](https://github.com/Ha0Tang/SelectionGAN).
+
 ## Related Projects
-**[GestureGAN](https://github.com/Ha0Tang/GestureGAN) | [C2GAN](https://github.com/Ha0Tang/C2GAN) | [SelectionGAN](https://github.com/Ha0Tang/SelectionGAN) | [Guided-I2I-Translation-Papers](https://github.com/Ha0Tang/Guided-I2I-Translation-Papers)**
+**[BiGraphGAN](https://github.com/Ha0Tang/BiGraphGAN) | [GestureGAN](https://github.com/Ha0Tang/GestureGAN) | [C2GAN](https://github.com/Ha0Tang/C2GAN) | [SelectionGAN](https://github.com/Ha0Tang/SelectionGAN) | [Guided-I2I-Translation-Papers](https://github.com/Ha0Tang/Guided-I2I-Translation-Papers)**
 
 ## Citation
 If you use this code for your research, please cite our papers.
+
+XingGAN
+```
+@inproceedings{tang2020xinggan,
+  title={XingGAN for Person Image Generation},
+  author={Tang, Hao and Bai, Song and Zhang, Li and Torr, Philip HS and Sebe, Nicu},
+  booktitle={ECCV},
+  year={2020}
+}
+```
+
+BiGraphGAN
+```
+@inproceedings{tang2020bipartite,
+  title={Bipartite Graph Reasoning GANs for Person Image Generation},
+  author={Tang, Hao and Bai, Song and Torr, Philip HS and Sebe, Nicu},
+  booktitle={BMVC},
+  year={2020}
+}
+```
 
 GestureGAN
 ```
@@ -79,4 +164,5 @@ SelectionGAN
 }
 ```
 
-## We will release the code and pre-trained models soon. Make sure to star our repository to stay tuned.
+## Contributions
+If you have any questions/comments/bug reports, feel free to open a github issue or pull a request or e-mail to the author Hao Tang ([hao.tang@unitn.it](hao.tang@unitn.it)).
