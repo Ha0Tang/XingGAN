@@ -6,7 +6,8 @@
 ![Contributing](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)
 ![Ask Me Anything !](https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg)
 
-- [XingGAN or CrossingGAN](#XingGAN-or-CrossingGAN)
+Contents
+  - [XingGAN or CrossingGAN](#XingGAN-or-CrossingGAN)
   - [Installation](#Installation)
   - [Dataset Preparation](#Dataset-Preparation)
   - [Generating Images Using Pretrained Model](#Generating-Images-Using-Pretrained-Model)
