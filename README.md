@@ -6,7 +6,7 @@
 ![Contributing](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)
 ![Ask Me Anything !](https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg)
 
-## XingGAN (or CrossingGAN)
+## XingGAN or CrossingGAN
 
 [**XingGAN for Person Image Generation**](https://arxiv.org/abs/2007.09278)  
 [Hao Tang](http://disi.unitn.it/~hao.tang/)<sup>12</sup>, [Song Bai](http://songbai.site/)<sup>2</sup>, [Li Zhang](http://www.robots.ox.ac.uk/~lz/)<sup>2</sup>, [Philip H.S. Torr](https://scholar.google.com/citations?user=kPxa2w0AAAAJ&hl=en)<sup>2</sup>, [Nicu Sebe](https://scholar.google.com/citations?user=stFCYOAAAAAJ&hl=en)<sup>13</sup>. <br> 
@@ -35,6 +35,17 @@ All rights reserved.
 Licensed under the [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode) (**Attribution-NonCommercial-ShareAlike 4.0 International**)
 
 The code is released for academic research use only. For commercial use, please contact [hao.tang@unitn.it](hao.tang@unitn.it).
+
+- [XingGAN or CrossingGAN](#XingGAN-or-CrossingGAN)
+  - [Installation](#Installation)
+  - [Dataset Preparation](#Dataset-Preparation)
+  - [Generating Images Using Pretrained Model](#Generating-Images-Using-Pretrained-Model)
+  - [Train and Test New Models](#Train-and-Test-New-Models)
+  - [Evaluation](#Evaluation)
+  - [Acknowledgments](#Acknowledgments)
+  - [Related Projects](#Related-Projects)
+  - [Citation](#Citation)
+  - [Contributions](#Contributions)
 
 ## Installation
 
@@ -82,7 +93,7 @@ Then,
 1. Change several parameters in `test_deepfashion.sh`.
 2. Run `sh test_deepfashion.sh` for testing.
 
-## Train/Test New Models
+## Train and Test New Models
 ### Market-1501
 1. Change several parameters in `train_market.sh`.
 2. Run `sh train_market.sh` for training.
