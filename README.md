@@ -141,6 +141,13 @@ BiGraphGAN
 
 GestureGAN
 ```
+@article{tang2019unified,
+  title={Unified Generative Adversarial Networks for Controllable Image-to-Image Translation},
+  author={Tang, Hao and Liu, Hong and Sebe, Nicu},
+  journal={IEEE Transactions on Image Processing (TIP)},
+  year={2020}
+}
+
 @inproceedings{tang2018gesturegan,
   title={GestureGAN for Hand Gesture-to-Gesture Translation in the Wild},
   author={Tang, Hao and Wang, Wei and Xu, Dan and Yan, Yan and Sebe, Nicu},
