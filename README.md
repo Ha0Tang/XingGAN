@@ -117,7 +117,7 @@ This source code is inspired by both [Pose-Transfer](https://github.com/tengteng
 **[BiGraphGAN](https://github.com/Ha0Tang/BiGraphGAN) | [GestureGAN](https://github.com/Ha0Tang/GestureGAN) | [C2GAN](https://github.com/Ha0Tang/C2GAN) | [SelectionGAN](https://github.com/Ha0Tang/SelectionGAN) | [Guided-I2I-Translation-Papers](https://github.com/Ha0Tang/Guided-I2I-Translation-Papers)**
 
 ## Citation
-If you use this code for your research, please cite our papers.
+If you use this code for your research, please cite our [Paper](https://arxiv.org/abs/2007.09278).
 
 XingGAN
 ```
@@ -128,6 +128,8 @@ XingGAN
   year={2020}
 }
 ```
+
+If you use the original [BiGraphGAN](https://github.com/Ha0Tang/BiGraphGAN), [GestureGAN](https://github.com/Ha0Tang/GesstureGAN), [C2GAN](https://github.com/Ha0Tang/C2GAN), and [SelectionGAN](https://github.com/Ha0Tang/SelectionGAN) model included in this repo, please cite the following papers:
 
 BiGraphGAN
 ```
