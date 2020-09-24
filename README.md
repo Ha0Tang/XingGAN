@@ -111,7 +111,7 @@ Then,
 We adopt SSIM, mask-SSIM, IS, mask-IS, and PCKh for evaluation of Market-1501. SSIM, IS, PCKh for DeepFashion. Please refer to [Pose-Transfer](https://github.com/tengteng95/Pose-Transfer#evaluation) for more details.
  
 ## Acknowledgments
-This source code is inspired by both [Pose-Transfer](https://github.com/tengteng95/Pose-Transfer), [DANet](https://github.com/junfu1115/DANet) and [SelectionGAN](https://github.com/Ha0Tang/SelectionGAN).
+This source code is inspired by both [Pose-Transfer](https://github.com/tengteng95/Pose-Transfer), and [SelectionGAN](https://github.com/Ha0Tang/SelectionGAN).
 
 ## Related Projects
 **[BiGraphGAN](https://github.com/Ha0Tang/BiGraphGAN) | [GestureGAN](https://github.com/Ha0Tang/GestureGAN) | [C2GAN](https://github.com/Ha0Tang/C2GAN) | [SelectionGAN](https://github.com/Ha0Tang/SelectionGAN) | [Guided-I2I-Translation-Papers](https://github.com/Ha0Tang/Guided-I2I-Translation-Papers)**
