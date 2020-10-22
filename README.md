@@ -73,7 +73,7 @@ To reproduce the results reported in the paper, you need to run experiments on N
 
 Please follow [SelectionGAN](https://github.com/Ha0Tang/SelectionGAN/tree/master/person_transfer#data-preperation) to directly download both Market-1501 and DeepFashion datasets.
 
-This repository use the same dataset format as [SelectionGAN](https://github.com/Ha0Tang/SelectionGAN/tree/master/person_transfer#data-preperation) and [Bipartite Graph Reasoning GANs for Person Image Generation](https://github.com/Ha0Tang/BiGraphGAN). so you can use the same data for all these methods.
+This repository use the same dataset format as [SelectionGAN](https://github.com/Ha0Tang/SelectionGAN/tree/master/person_transfer#data-preperation) and [BiGraphGAN](https://github.com/Ha0Tang/BiGraphGAN). so you can use the same data for all these methods.
 
 ## Generating Images Using Pretrained Model
 ### Market-1501
