@@ -115,7 +115,3 @@ if __name__ == "__main__":
     annotations_file_test = 'fashion_data/fasion-resize-annotation-test.csv'
 
     test(generated_images_dir, annotations_file_test)
-
-
-
-
