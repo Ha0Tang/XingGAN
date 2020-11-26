@@ -110,11 +110,19 @@ Then,
 4. Run `sh test_deepfashion.sh` for testing.
 
 ## Evaluation
-We adopt SSIM, mask-SSIM, IS, mask-IS, and PCKh for evaluation of Market-1501. SSIM, IS, PCKh for DeepFashion. Please refer to [Pose-Transfer](https://github.com/tengteng95/Pose-Transfer#evaluation) for more details.
+We adopt SSIM, mask-SSIM, IS, mask-IS, and PCKh for evaluation of Market-1501. SSIM, IS, PCKh for DeepFashion. 
 1. SSIM, mask-SSIM, IS, mask-IS: `python3.5`, `tensorflow 1.4.1`, `scikit-image==0.14.2`.
 
 Then run,
 `python tool/getMetrics_market.py` or `python tool/getMetrics_fashion`.py.
+
+2. PCKh: `python2`.
+
+Then run `python tool/crop_market.py` or `python tool/crop_fashion.py`.
+Next download pose estimator and put it under the root folder, and run `python compute_coordinates.py`.
+Lastly, run `python tool/calPCKH_market.py` or `python tool/calPCKH_fashion.py`.
+
+Please refer to [Pose-Transfer](https://github.com/tengteng95/Pose-Transfer#evaluation) for more details.
 
  
 ## Acknowledgments
