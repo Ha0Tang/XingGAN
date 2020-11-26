@@ -114,7 +114,7 @@ We adopt SSIM, mask-SSIM, IS, mask-IS, and PCKh for evaluation of Market-1501. S
 1. SSIM, mask-SSIM, IS, mask-IS: `python3.5`, `tensorflow 1.4.1`, `scikit-image==0.14.2`.
 
 Then run,
-`python tool/getMetrics_market.py` or python tool/getMetrics_market.py.
+`python tool/getMetrics_market.py` or `python tool/getMetrics_fashion`.py.
 
  
 ## Acknowledgments
