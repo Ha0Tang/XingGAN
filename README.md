@@ -111,7 +111,11 @@ Then,
 
 ## Evaluation
 We adopt SSIM, mask-SSIM, IS, mask-IS, and PCKh for evaluation of Market-1501. SSIM, IS, PCKh for DeepFashion. Please refer to [Pose-Transfer](https://github.com/tengteng95/Pose-Transfer#evaluation) for more details.
-1. SSIM, mask-SSIM, IS, mask-IS: `python3.5`, `Tensorflow 1.4.1`, `scikit-image==0.14.2`
+1. SSIM, mask-SSIM, IS, mask-IS: `python3.5`, `tensorflow 1.4.1`, `scikit-image==0.14.2`.
+
+Then run,
+`python tool/getMetrics_market.py` or python tool/getMetrics_market.py.
+
  
 ## Acknowledgments
 This source code is inspired by both [Pose-Transfer](https://github.com/tengteng95/Pose-Transfer), and [SelectionGAN](https://github.com/Ha0Tang/SelectionGAN).
