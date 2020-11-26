@@ -115,9 +115,6 @@ def test(generated_images_dir, annotations_file_test):
     print ("Inception score = %s, masked = %s; SSIM score = %s, masked = %s; l1 score = %s" %
            (inception_score, inception_score_masked, structured_score, structured_score_masked, norm_score))
 
-
-
-
 if __name__ == "__main__":
     generated_images_dir = 'results/market_PATN/test_latest/images'
     annotations_file_test = 'market_data/market-annotation-test.csv'
