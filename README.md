@@ -26,7 +26,7 @@
 In [ECCV 2020](https://eccv2020.eu/). <br>
 The repository offers the official implementation of our paper in PyTorch.
 
-Also see our BMVC 2020 oral paper [Bipartite Graph Reasoning GANs for Person Image Generation](https://github.com/Ha0Tang/BiGraphGAN).
+In the meantime, check out our related BMVC 2020 oral paper [Bipartite Graph Reasoning GANs for Person Image Generation](https://github.com/Ha0Tang/BiGraphGAN).
 
 ### Framework
 <img src='./imgs/framework.jpg' width=1200>
