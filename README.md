@@ -121,7 +121,7 @@ Please refer to [Pose-Transfer](https://github.com/tengteng95/Pose-Transfer#eval
 
  
 ## Acknowledgments
-This source code is inspired by both [Pose-Transfer](https://github.com/tengteng95/Pose-Transfer), and [SelectionGAN](https://github.com/Ha0Tang/SelectionGAN).
+This source code is inspired by both [Pose-Transfer](https://github.com/tengteng95/Pose-Transfer) and [SelectionGAN](https://github.com/Ha0Tang/SelectionGAN).
 
 ## Related Projects
 **[BiGraphGAN](https://github.com/Ha0Tang/BiGraphGAN) | [GestureGAN](https://github.com/Ha0Tang/GestureGAN) | [C2GAN](https://github.com/Ha0Tang/C2GAN) | [SelectionGAN](https://github.com/Ha0Tang/SelectionGAN) | [Guided-I2I-Translation-Papers](https://github.com/Ha0Tang/Guided-I2I-Translation-Papers)**
