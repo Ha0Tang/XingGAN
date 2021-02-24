@@ -80,6 +80,7 @@ This repository uses the same dataset format as [SelectionGAN](https://github.co
 ```bash
 cd scripts/
 sh download_xinggan_model.sh market
+sh download_xinggan_model.sh market
 cd ..
 ```
 Then,
@@ -89,6 +90,7 @@ Then,
 ### DeepFashion
 ```bash
 cd scripts/
+sh download_xinggan_model.sh deepfashion
 sh download_xinggan_model.sh deepfashion
 cd ..
 ```
