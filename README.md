@@ -78,10 +78,7 @@ This repository uses the same dataset format as [SelectionGAN](https://github.co
 ## Generating Images Using Pretrained Model
 ### Market-1501
 ```bash
-cd scripts/
-sh download_xinggan_model.sh market
-sh download_xinggan_model.sh market
-cd ..
+sh scripts/download_xinggan_model.sh market
 ```
 Then,
 1. Change several parameters in `test_market.sh`.
@@ -89,10 +86,7 @@ Then,
 
 ### DeepFashion
 ```bash
-cd scripts/
-sh download_xinggan_model.sh deepfashion
-sh download_xinggan_model.sh deepfashion
-cd ..
+sh scripts/download_xinggan_model.sh deepfashion
 ```
 Then,
 1. Change several parameters in `test_deepfashion.sh`.
