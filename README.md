@@ -123,7 +123,7 @@ This source code is inspired by both [Pose-Transfer](https://github.com/tengteng
 **[BiGraphGAN](https://github.com/Ha0Tang/BiGraphGAN) | [GestureGAN](https://github.com/Ha0Tang/GestureGAN) | [C2GAN](https://github.com/Ha0Tang/C2GAN) | [SelectionGAN](https://github.com/Ha0Tang/SelectionGAN) | [Guided-I2I-Translation-Papers](https://github.com/Ha0Tang/Guided-I2I-Translation-Papers)**
 
 ## Citation
-If you use this code for your research, please cite our [paper](https://arxiv.org/abs/2007.09278).
+If you use this code for your research, please consider giving a star :star: and citing our [paper](https://arxiv.org/abs/2007.09278) :t-rex::
 
 XingGAN
 ```
