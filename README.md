@@ -197,3 +197,5 @@ If you have any questions/comments/bug reports, feel free to open a github issue
 
 ## Collaborations
 I'm always interested in meeting new people and hearing about potential collaborations. If you'd like to work together or get in contact with me, please email hao.tang@unitn.it.
+___
+*Progress is impossible without change, and those who cannot change their minds cannot change anything.*
