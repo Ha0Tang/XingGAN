@@ -167,6 +167,13 @@ GestureGAN
 
 C2GAN
 ```
+@article{tang2021total,
+  title={Total Generate: Cycle in Cycle Generative Adversarial Networks for Generating Human Faces, Hands, Bodies, and Natural Scenes},
+  author={Tang, Hao and Sebe, Nicu},
+  journal={IEEE Transactions on Multimedia (TMM)},
+  year={2021}
+}
+
 @inproceedings{tang2019cycleincycle,
   title={Cycle In Cycle Generative Adversarial Networks for Keypoint-Guided Image Generation},
   author={Tang, Hao and Xu, Dan and Liu, Gaowen and Wang, Wei and Sebe, Nicu and Yan, Yan},
