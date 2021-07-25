@@ -27,7 +27,7 @@
 In [ECCV 2020](https://eccv2020.eu/). <br>
 The repository offers the official implementation of our paper in PyTorch.
 
-In the meantime, check out our related BMVC 2020 oral paper [Bipartite Graph Reasoning GANs for Person Image Generation](https://github.com/Ha0Tang/BiGraphGAN) and ICCV 2021 paper [Intrinsic-Extrinsic Preserved GANs for Unsupervised 3D Pose Transfer](https://github.com/mikecheninoulu/Unsupervised_IEPGAN).
+In the meantime, check out our related ACM MM 2019 paper [Cycle In Cycle Generative Adversarial Networks for Keypoint-Guided Image Generation](https://github.com/Ha0Tang/C2GAN), BMVC 2020 oral paper [Bipartite Graph Reasoning GANs for Person Image Generation](https://github.com/Ha0Tang/BiGraphGAN) and ICCV 2021 paper [Intrinsic-Extrinsic Preserved GANs for Unsupervised 3D Pose Transfer](https://github.com/mikecheninoulu/Unsupervised_IEPGAN).
 
 ### Framework
 <img src='./imgs/framework.jpg' width=1200>
