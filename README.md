@@ -47,7 +47,7 @@ Copyright (C) 2020 University of Trento, Italy.
 All rights reserved.
 Licensed under the [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode) (**Attribution-NonCommercial-ShareAlike 4.0 International**)
 
-The code is released for academic research use only. For commercial use, please contact [hao.tang@unitn.it](hao.tang@unitn.it).
+The code is released for academic research use only. For commercial use, please contact [bjdxtanghao@gmail.com](bjdxtanghao@gmail.com).
 
 ## Installation
 
@@ -200,9 +200,9 @@ SelectionGAN
 ```
 
 ## Contributions
-If you have any questions/comments/bug reports, feel free to open a github issue or pull a request or e-mail to the author Hao Tang ([hao.tang@unitn.it](hao.tang@unitn.it)).
+If you have any questions/comments/bug reports, feel free to open a github issue or pull a request or e-mail to the author Hao Tang ([bjdxtanghao@gmail.com](bjdxtanghao@gmail.com)).
 
 ## Collaborations
-I'm always interested in meeting new people and hearing about potential collaborations. If you'd like to work together or get in contact with me, please email hao.tang@unitn.it.
+I'm always interested in meeting new people and hearing about potential collaborations. If you'd like to work together or get in contact with me, please email bjdxtanghao@gmail.com.
 ___
 *Progress is impossible without change, and those who cannot change their minds cannot change anything.*
