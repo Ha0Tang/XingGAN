@@ -5,7 +5,7 @@
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-blue.svg)]((https://github.com/Ha0Tang/XingGAN/graphs/commit-activity))
 ![Contributing](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)
 ![Ask Me Anything !](https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg)
-![Visitors](https://visitor-badge.glitch.me/badge?page_id=https://github.com/Ha0Tang/XingGAN)
+<!-- ![Visitors](https://visitor-badge.glitch.me/badge?page_id=https://github.com/Ha0Tang/XingGAN) -->
 
 
 ## Contents
