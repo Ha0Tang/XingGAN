@@ -79,8 +79,9 @@ Please follow [SelectionGAN](https://github.com/Ha0Tang/SelectionGAN/tree/master
 This repository uses the same dataset format as [SelectionGAN](https://github.com/Ha0Tang/SelectionGAN/tree/master/person_transfer#data-preperation) and [BiGraphGAN](https://github.com/Ha0Tang/BiGraphGAN). so you can use the same data for all these methods.
 
 ## Generating Images Using Pretrained Model
-### Market-1501
+### Market-1501 (Run twice, the first time create a new folder!!!)
 ```bash
+sh scripts/download_xinggan_model.sh market
 sh scripts/download_xinggan_model.sh market
 ```
 Then,
