@@ -143,6 +143,13 @@ If you use the original [BiGraphGAN](https://github.com/Ha0Tang/BiGraphGAN), [Ge
 
 BiGraphGAN
 ```
+@article{tang2022bipartite,
+  title={Bipartite Graph Reasoning GANs for Person Pose and Facial Image Synthesis},
+  author={Tang, Hao and Shao, Ling and Torr, Philip HS and Sebe, Nicu},
+  journal={International Journal of Computer Vision (IJCV)},
+  year={2022}
+}
+
 @inproceedings{tang2020bipartite,
   title={Bipartite Graph Reasoning GANs for Person Image Generation},
   author={Tang, Hao and Bai, Song and Torr, Philip HS and Sebe, Nicu},
